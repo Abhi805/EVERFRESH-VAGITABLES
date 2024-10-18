@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HOME-EVERFRESH-VAGITABLES</title>
+  <style>
+    *{
+      margin: 0;
+      padding: 0;
+    }
+.container{
+  background-color: rgb(178, 243, 152);
+    display: grid;
+   grid-template-rows:0.7fr 8.2fr 0.8fr  ;
+   grid-template-columns:1fr 1fr 1fr;
+
+   margin: auto;
+
+}
+.card{
+
+  border: 1px solid rgb(59, 58, 0);
+  border-radius: 2px;
+}
+.card-1{
+  grid-column-start: 1;
+  grid-column-end:5 ;
+  background-color: rgb(178, 243, 152);
+
+}
+.card-2{
+  grid-column-start: 1;
+  grid-column-end:3;
+}
+.card-1 ul{
+  display: flex;
+  list-style: none;
+  justify-content: center;
+  margin: 12px auto;
+  justify-content: space-around;
+
+}
+
+.card-1 ul li{
+
+  display: flex;
+  align-items:center ;
+  color: black;
+}
+.card-1 ul li a{
+  margin: 0px 5px;
+  padding: 8px 8px; 
+font-weight: 600;
+color:#5f6400;
+}
+.card-1 ul li a:hover{
+  background-color:  rgb(59, 197, 4);
+  color: black;
+  border-radius: 5px;
+
+ 
+}
+.card ul li a{
+  text-decoration: none;
+}
+
+.card-4{
+  grid-column-start: 1;
+  grid-column-end:4;
+}
+.card-2 img{
+  width: 100%;
+  height: 100%;
+}
+.card-3 img{
+  width: 100%;
+  height: 100%;
+}
+.active{
+  background-color:  rgb(59, 197, 4);
+  color: black;
+  border-radius: 5px;
+}
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="card card-1">
+      <ul>
+        <h2 style="color: #ff0303;">EVERFRESH</h2>
+        <li class="child-1 active" ><a href="index.html" >HOME</a></li>
+        <li><a href="about.html" >ABOUT</a></li>
+        <li><a href="contact.html" >CONTACT</a></li>
+        <li><a href="indianvegitables.html" >INDIAN-VEGITABLES</a></li>
+        <li><a href="foreignvegitables.html" >FOREIGN-VEGITABLES</a></li>
+      </ul>
+    </div>
+    <div class="card  card-2">
+      <img src="./images/5_files/vegetables-fruits-falling-out-tipped-260nw-1421290397.jpg" alt="">
+    </div>
+    <div class="card card-3">
+      <img src="./images/2.avif" alt="">
+    </div>
+    <div class="card card-4 ">
+      <marquee behavior="alternate"  style="color: #ff0303; font-size: xx-large; font-weight: 700; ">
+        10% EXTRE Discount FRESH-VEGITABLES
+      </marquee>
+ </div>
+</body>
+</html>
